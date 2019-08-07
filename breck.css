@@ -1,0 +1,116 @@
+/* Color Pallette
+#CFCCD9 - Lavendar
+#403C38 - Dark Brown
+#8C837B - Light Brown
+#F2CBBD - Salmon
+#F2E0DC - Light Pink
+
+
+*/
+
+html{
+  margin: 0;
+  background-color: #F2E0DC;
+}
+body{
+  margin: 0;
+  width: 100vw;
+}
+#frontpage {
+  margin: 0;
+  height: 90vh;
+  background-image: url('breckview.jpg');
+  background-position:top;
+  background-size: cover;
+  border-bottom: #403C38 solid 10px;
+
+}
+#frontpage p{
+  text-align: center;
+  font-size: 56px;
+  color: #8C837B;
+  padding-top: 10vh;
+  margin-bottom:0;
+  font-family: 'Sacramento', cursive;
+}
+#frontpage div{
+}
+
+#frontpage h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 10vw;
+  font-weight: 10000;
+  color: #403C38;
+  font-family: 'Libre Caslon Text', serif;
+}
+
+#frontpage header{
+  position: fixed;
+  top:0;
+  width: 100vw;
+  padding: 1vh;
+  /* background-color: #CFCCD9 ; */
+  border-bottom: #403C38 solid 2px;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 18px;
+  background-color: #F2E0DC;
+}
+
+#frontpage nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#frontpage li a{
+  float: left;
+  display: block;
+  color: #403C38;
+  text-align: center;
+  margin: 0 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+@media only screen and (orientation: portrait) {
+  #frontpage header {
+    font-size: 24px;
+  }
+}
+
+#frontpage li a:hover{
+  background-color: #403C38;
+  color: #F2E0DC;.
+}
+
+.sections{
+  border-bottom: #8C837B solid 2px;
+}
+
+.sections div{
+  margin: 0 10vw;
+  padding: 8.5vh 0;
+  width: 80vw;
+  font-family: 'Libre Caslon Text', serif;
+  color: #403C38;
+}
+
+.sections div h2{
+  margin-top: 0;
+  font-size: 32px;
+}
+
+.sections div p{
+  font-size: 18px;
+}
+
+#checkin{
+ background-color: #CFCCD9;
+}
+
+#parking{
+  background-color: #F2CBBD;
+}
